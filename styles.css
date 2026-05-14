@@ -8,6 +8,21 @@ body {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+h1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+p {
+  text-decoration: underline;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
 .container {
   max-width: 360px;
   margin: 20px auto;
@@ -39,4 +54,23 @@ input:focus {
 .btn:hover {
   background-color: #eee;
   cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exercise {
+  flex: 1;
+  text-align: center;
+}
+
+.board.visible {
+  max-width: 360px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 7px;
 }
